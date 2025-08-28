@@ -8,9 +8,9 @@ You can find a longer, illustrated version of these instructions at: ( https://c
 1.  Download and run the latest (current) version of the installer (`msys2-x86_64-current.exe`) with the default options (in the default location--`C:\msys64\`).
 2.	The installer will do a few things and then ask to run MSYS2 when it is done. Make sure it is selected and run MSYS2. (You can also now find “MSYS2 MSYS” in the start menu).
 3.	This brings you to a command prompt. From here just type (or copy/paste!) the line below. This runs the package manager (not what you were thinking?) to download the current MinGW version. Then hit enter a few times to install the mingw packages.
-```
-pacman -S --needed base-devel mingw-w64-x86_64-gcc
-```
+    ```
+    pacman -S --needed base-devel mingw-w64-x86_64-gcc
+    ```
 4.	When it is done, you will be brought back to the command prompt. Exit this by typing `exit` or just closing the window.
 
 #### Set your Path
